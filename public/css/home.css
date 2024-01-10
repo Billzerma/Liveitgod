@@ -1,0 +1,79 @@
+.bg-nav{
+    background-color: #1A84FF;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+.text-nav{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 50px;
+
+}
+   
+.log-out{
+    margin-left: 1200px;
+}
+
+.mar-img{
+    text-align: center;
+  vertical-align: middle;
+  width: 500px;
+  
+}
+
+
+.desk-gedung{
+    width: 500px;
+}
+
+
+.e-commerce{
+    width: 1100px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.banner-catalog{
+    width: 1700px;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.head-commerce{
+    width: 1700px;
+    height: 100px;
+    background-color: #232173;
+    padding: 20px;
+}
+
+.bor h1    {
+    color: #f1f1f1;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+}
+
+
+.bor{
+    border: 3px solid #f1f1f1;
+    width: 260px;
+    height: 60px;
+    border-radius: 20px;
+    
+}
+
+.scroll{
+    overflow-x: scroll;
+    height: 200px;
+    overflow-x: hidden;
+}

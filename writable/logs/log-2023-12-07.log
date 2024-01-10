@@ -1,0 +1,99 @@
+INFO - 2023-12-07 03:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-07 03:35:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-07 03:35:26 --> CURL Error: Could not resolve host: app.sandbox.midtrans.com
+in VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php on line 156.
+ 1 VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.sandbox.midtrans.com/snap/v1/transactions', 'SB-Mid-server-ecrI-6MRwAqXq3o5k7csruC4', [...], 'POST')
+ 2 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.sandbox.midtrans.com/snap/v1/transactions', 'SB-Mid-server-ecrI-6MRwAqXq3o5k7csruC4', [...])
+ 3 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction([...])
+ 4 APPPATH\Controllers\Landing.php(29): Midtrans\Snap::getSnapToken([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Landing->landing()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-07 03:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-07 03:35:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-07 03:35:27 --> CURL Error: Could not resolve host: app.sandbox.midtrans.com
+in VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php on line 156.
+ 1 VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.sandbox.midtrans.com/snap/v1/transactions', 'SB-Mid-server-ecrI-6MRwAqXq3o5k7csruC4', [...], 'POST')
+ 2 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.sandbox.midtrans.com/snap/v1/transactions', 'SB-Mid-server-ecrI-6MRwAqXq3o5k7csruC4', [...])
+ 3 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction([...])
+ 4 APPPATH\Controllers\Landing.php(29): Midtrans\Snap::getSnapToken([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Landing->landing()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-07 03:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-07 03:35:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-07 03:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-07 03:37:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-07 03:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-07 03:38:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-07 03:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-07 03:40:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-07 03:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-07 03:41:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-07 03:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-07 03:44:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-07 03:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-07 03:45:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-07 03:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-07 03:45:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-07 03:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-07 03:46:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

@@ -1,0 +1,10 @@
+CRITICAL - 2023-11-21 12:42:04 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+INFO - 2023-11-21 13:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 13:40:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\User::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

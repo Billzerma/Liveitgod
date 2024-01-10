@@ -1,0 +1,928 @@
+INFO - 2023-05-28 05:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 05:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 05:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 05:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 05:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 05:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 05:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-28 05:52:11 --> Invalid file: "app\Views\Alumni\login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app\\Views\\Alumni\\login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('app\\Views\\Alumni\\login.php', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('app\\Views\\Alumni\\login.php', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('app\\Views\\Alumni\\login.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 05:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-28 05:52:43 --> Invalid file: "app\Views\Alumni\login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app\\Views\\Alumni\\login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('app\\Views\\Alumni\\login.php', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('app\\Views\\Alumni\\login.php', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('app\\Views\\Alumni\\login.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 05:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-28 05:52:44 --> Invalid file: "app\Views\Alumni\login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app\\Views\\Alumni\\login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('app\\Views\\Alumni\\login.php', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('app\\Views\\Alumni\\login.php', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('app\\Views\\Alumni\\login.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 05:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-28 05:52:45 --> Invalid file: "app\Views\Alumni\login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app\\Views\\Alumni\\login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('app\\Views\\Alumni\\login.php', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('app\\Views\\Alumni\\login.php', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('app\\Views\\Alumni\\login.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 06:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-28 06:05:04 --> Invalid file: "app\Views\Alumni\login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app\\Views\\Alumni\\login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('app\\Views\\Alumni\\login', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('app\\Views\\Alumni\\login', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('app\\Views\\Alumni\\login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 06:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-28 06:05:11 --> Invalid file: "app\Views\Alumni\login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app\\Views\\Alumni\\login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('app\\Views\\Alumni\\login', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('app\\Views\\Alumni\\login', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('app\\Views\\Alumni\\login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 06:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-28 06:05:12 --> Invalid file: "app\Views\Alumni\login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app\\Views\\Alumni\\login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('app\\Views\\Alumni\\login', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('app\\Views\\Alumni\\login', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('app\\Views\\Alumni\\login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 06:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-28 06:05:17 --> Invalid file: "app\Views\Alumni\login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app\\Views\\Alumni\\login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('app\\Views\\Alumni\\login', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('app\\Views\\Alumni\\login', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('app\\Views\\Alumni\\login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 06:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-28 06:05:25 --> Invalid file: "app\Views\Alumni\login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app\\Views\\Alumni\\login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('app\\Views\\Alumni\\login', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('app\\Views\\Alumni\\login', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('app\\Views\\Alumni\\login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 06:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-28 06:05:27 --> Invalid file: "app\Views\Alumni\login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app\\Views\\Alumni\\login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('app\\Views\\Alumni\\login', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('app\\Views\\Alumni\\login', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('app\\Views\\Alumni\\login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 06:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 06:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-28 07:31:13 --> Class 'false' not found
+in VENDORPATH\myth\auth\src\Config\Services.php on line 81.
+ 1 SYSTEMPATH\Config\BaseService.php(252): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+ 2 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('activator', [...])
+ 3 VENDORPATH\myth\auth\src\Config\Services.php(74): CodeIgniter\Config\BaseService::getSharedInstance('activator', null)
+ 4 SYSTEMPATH\Config\BaseService.php(252): Myth\Auth\Config\Services::activator()
+ 5 SYSTEMPATH\Common.php(1016): CodeIgniter\Config\BaseService::__callStatic('activator', [])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(184): service('activator')
+ 7 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 07:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-28 07:33:34 --> Class 'false' not found
+in VENDORPATH\myth\auth\src\Config\Services.php on line 81.
+ 1 SYSTEMPATH\Config\BaseService.php(252): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+ 2 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('activator', [...])
+ 3 VENDORPATH\myth\auth\src\Config\Services.php(74): CodeIgniter\Config\BaseService::getSharedInstance('activator', null)
+ 4 SYSTEMPATH\Config\BaseService.php(252): Myth\Auth\Config\Services::activator()
+ 5 SYSTEMPATH\Common.php(1016): CodeIgniter\Config\BaseService::__callStatic('activator', [])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(184): service('activator')
+ 7 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 07:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-28 07:38:32 --> Class 'false' not found
+in VENDORPATH\myth\auth\src\Config\Services.php on line 81.
+ 1 SYSTEMPATH\Config\BaseService.php(252): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+ 2 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('activator', [...])
+ 3 VENDORPATH\myth\auth\src\Config\Services.php(74): CodeIgniter\Config\BaseService::getSharedInstance('activator', null)
+ 4 SYSTEMPATH\Config\BaseService.php(252): Myth\Auth\Config\Services::activator()
+ 5 SYSTEMPATH\Common.php(1016): CodeIgniter\Config\BaseService::__callStatic('activator', [])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(184): service('activator')
+ 7 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 07:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-28 07:42:09 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-05-28 07:42:09 --> 220 smtp.gmail.com ESMTP 63-20020a630542000000b0051baf3f1b3esm5155224pgf.76 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [125.166.12.178]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 63-20020a630542000000b0051baf3f1b3esm5155224pgf.76 - gsmtp
+
+INFO - 2023-05-28 07:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-28 07:44:45 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-05-28 07:44:45 --> 220 smtp.gmail.com ESMTP x21-20020aa784d5000000b0063b86aff031sm4847159pfn.108 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [125.166.12.178]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor x21-20020aa784d5000000b0063b86aff031sm4847159pfn.108 - gsmtp
+
+INFO - 2023-05-28 07:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-28 07:46:38 --> Class 'false' not found
+in VENDORPATH\myth\auth\src\Config\Services.php on line 81.
+ 1 SYSTEMPATH\Config\BaseService.php(252): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+ 2 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('activator', [...])
+ 3 VENDORPATH\myth\auth\src\Config\Services.php(74): CodeIgniter\Config\BaseService::getSharedInstance('activator', null)
+ 4 SYSTEMPATH\Config\BaseService.php(252): Myth\Auth\Config\Services::activator()
+ 5 SYSTEMPATH\Common.php(1016): CodeIgniter\Config\BaseService::__callStatic('activator', [])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(184): service('activator')
+ 7 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 07:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-28 07:49:40 --> Class 'false' not found
+in VENDORPATH\myth\auth\src\Config\Services.php on line 81.
+ 1 SYSTEMPATH\Config\BaseService.php(252): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+ 2 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('activator', [...])
+ 3 VENDORPATH\myth\auth\src\Config\Services.php(74): CodeIgniter\Config\BaseService::getSharedInstance('activator', null)
+ 4 SYSTEMPATH\Config\BaseService.php(252): Myth\Auth\Config\Services::activator()
+ 5 SYSTEMPATH\Common.php(1016): CodeIgniter\Config\BaseService::__callStatic('activator', [])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(184): service('activator')
+ 7 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 07:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-28 07:55:48 --> Class name must be a valid object or a string
+in VENDORPATH\myth\auth\src\Config\Services.php on line 81.
+ 1 SYSTEMPATH\Config\BaseService.php(252): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+ 2 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('activator', [...])
+ 3 VENDORPATH\myth\auth\src\Config\Services.php(74): CodeIgniter\Config\BaseService::getSharedInstance('activator', null)
+ 4 SYSTEMPATH\Config\BaseService.php(252): Myth\Auth\Config\Services::activator()
+ 5 SYSTEMPATH\Common.php(1016): CodeIgniter\Config\BaseService::__callStatic('activator', [])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(184): service('activator')
+ 7 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 07:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 07:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-28 07:58:01 --> Class 'false' not found
+in VENDORPATH\myth\auth\src\Config\Services.php on line 81.
+ 1 SYSTEMPATH\Config\BaseService.php(252): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+ 2 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('activator', [...])
+ 3 VENDORPATH\myth\auth\src\Config\Services.php(74): CodeIgniter\Config\BaseService::getSharedInstance('activator', null)
+ 4 SYSTEMPATH\Config\BaseService.php(252): Myth\Auth\Config\Services::activator()
+ 5 SYSTEMPATH\Common.php(1016): CodeIgniter\Config\BaseService::__callStatic('activator', [])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(184): service('activator')
+ 7 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 08:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 08:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 08:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 08:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 08:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 08:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 08:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 08:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 08:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 08:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 08:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 08:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 08:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 08:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 08:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 08:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 08:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-28 10:03:52 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'alumni', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\xampp\htdocs\ci4\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('carialumni', 'before')
+#11 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '10')
+#5 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('10')
+#6 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#7 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+#8 C:\xampp\htdocs\ci4\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('carialumni', 'before')
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-28 10:03:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = :users.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '10')
+ 5 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('10')
+ 6 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+ 7 VENDORPATH\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+ 8 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('carialumni', 'before')
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 10:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 10:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 12:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 12:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 12:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 12:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 12:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 12:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 12:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 12:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 12:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 12:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 12:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 12:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 12:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 12:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 12:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 12:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 12:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-28 12:27:24 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'alumni', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Controllers\AuthController.php(124): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->register()
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '10')
+#5 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('10')
+#6 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#7 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Controllers\AuthController.php(124): Myth\Auth\Authentication\LocalAuthenticator->check()
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->register()
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-28 12:27:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = :users.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '10')
+ 5 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('10')
+ 6 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(124): Myth\Auth\Authentication\LocalAuthenticator->check()
+ 8 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->register()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 12:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-28 12:28:12 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'alumni', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Controllers\AuthController.php(48): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '10')
+#5 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('10')
+#6 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#7 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Controllers\AuthController.php(48): Myth\Auth\Authentication\LocalAuthenticator->check()
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-28 12:28:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = :users.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '10')
+ 5 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('10')
+ 6 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(48): Myth\Auth\Authentication\LocalAuthenticator->check()
+ 8 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 12:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-28 12:28:19 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'alumni', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\xampp\htdocs\ci4\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('carialumni', 'before')
+#11 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '10')
+#5 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('10')
+#6 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#7 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+#8 C:\xampp\htdocs\ci4\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('carialumni', 'before')
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-28 12:28:19 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = :users.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '10')
+ 5 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('10')
+ 6 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+ 7 VENDORPATH\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+ 8 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('carialumni', 'before')
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 12:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-28 12:28:34 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'alumni', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Controllers\AuthController.php(48): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '10')
+#5 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('10')
+#6 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#7 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Controllers\AuthController.php(48): Myth\Auth\Authentication\LocalAuthenticator->check()
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-28 12:28:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = :users.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '10')
+ 5 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('10')
+ 6 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(48): Myth\Auth\Authentication\LocalAuthenticator->check()
+ 8 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 12:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-28 12:28:49 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'alumni', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\xampp\htdocs\ci4\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('carialumni', 'before')
+#11 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '10')
+#5 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('10')
+#6 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#7 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+#8 C:\xampp\htdocs\ci4\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('carialumni', 'before')
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-28 12:28:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = :users.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '10')
+ 5 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('10')
+ 6 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+ 7 VENDORPATH\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+ 8 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('carialumni', 'before')
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-05-28 12:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 12:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 12:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-28 13:18:24 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 663.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-05-28 13:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-28 13:45:00 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 663.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-05-28 13:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-28 13:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

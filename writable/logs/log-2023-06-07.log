@@ -1,0 +1,174 @@
+INFO - 2023-06-07 15:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-07 15:15:58 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_gudang', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('paharin', 'username', Array, NULL, 'username')
+#6 C:\xampp\htdocs\ci4\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('username', 'username', 'paharin', Array, Array)
+#7 C:\xampp\htdocs\ci4\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Controllers\AuthController.php(155): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('paharin', 'username', Array, NULL, 'username')
+#5 C:\xampp\htdocs\ci4\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('username', 'username', 'paharin', Array, Array)
+#6 C:\xampp\htdocs\ci4\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Controllers\AuthController.php(155): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-06-07 15:15:58 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('paharin', 'username', [...], null, 'username')
+ 5 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('username', 'username', 'paharin', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(155): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-06-07 15:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-07 15:16:20 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'alumni', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('paharin', 'username', Array, NULL, 'username')
+#6 C:\xampp\htdocs\ci4\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('username', 'username', 'paharin', Array, Array)
+#7 C:\xampp\htdocs\ci4\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Controllers\AuthController.php(155): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('paharin', 'username', Array, NULL, 'username')
+#5 C:\xampp\htdocs\ci4\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('username', 'username', 'paharin', Array, Array)
+#6 C:\xampp\htdocs\ci4\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\ci4\vendor\myth\auth\src\Controllers\AuthController.php(155): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-06-07 15:16:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('paharin', 'username', [...], null, 'username')
+ 5 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('username', 'username', 'paharin', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(155): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-06-07 15:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-07 15:16:43 --> [ERROR] 6 : Could not resolve host: api.pwnedpasswords.com VENDORPATH\myth\auth\src\Exceptions\AuthException.php:56
+CRITICAL - 2023-06-07 15:16:43 --> 6 : Could not resolve host: api.pwnedpasswords.com
+in VENDORPATH\myth\auth\src\Exceptions\AuthException.php on line 56.
+ 1 VENDORPATH\myth\auth\src\Authentication\Passwords\PwnedValidator.php(46): Myth\Auth\Exceptions\AuthException::forHIBPCurlFail(Object(CodeIgniter\HTTP\Exceptions\HTTPException))
+ 2 VENDORPATH\myth\auth\src\Authentication\Passwords\PasswordValidator.php(46): Myth\Auth\Authentication\Passwords\PwnedValidator->check('empukwangi100%', Object(Myth\Auth\Entities\User))
+ 3 VENDORPATH\myth\auth\src\Authentication\Passwords\ValidationRules.php(42): Myth\Auth\Authentication\Passwords\PasswordValidator->check('empukwangi100%', Object(Myth\Auth\Entities\User))
+ 4 SYSTEMPATH\Validation\Validation.php(311): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('empukwangi100%', null)
+ 5 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('password', 'password', 'empukwangi100%', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(165): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-06-07 15:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-07 15:17:14 --> [ERROR] 6 : Could not resolve host: api.pwnedpasswords.com VENDORPATH\myth\auth\src\Exceptions\AuthException.php:56
+CRITICAL - 2023-06-07 15:17:14 --> 6 : Could not resolve host: api.pwnedpasswords.com
+in VENDORPATH\myth\auth\src\Exceptions\AuthException.php on line 56.
+ 1 VENDORPATH\myth\auth\src\Authentication\Passwords\PwnedValidator.php(46): Myth\Auth\Exceptions\AuthException::forHIBPCurlFail(Object(CodeIgniter\HTTP\Exceptions\HTTPException))
+ 2 VENDORPATH\myth\auth\src\Authentication\Passwords\PasswordValidator.php(46): Myth\Auth\Authentication\Passwords\PwnedValidator->check('empukempuk100%', Object(Myth\Auth\Entities\User))
+ 3 VENDORPATH\myth\auth\src\Authentication\Passwords\ValidationRules.php(42): Myth\Auth\Authentication\Passwords\PasswordValidator->check('empukempuk100%', Object(Myth\Auth\Entities\User))
+ 4 SYSTEMPATH\Validation\Validation.php(311): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('empukempuk100%', null)
+ 5 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('password', 'password', 'empukempuk100%', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(165): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-06-07 15:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 15:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

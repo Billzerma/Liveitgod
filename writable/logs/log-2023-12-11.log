@@ -1,0 +1,246 @@
+INFO - 2023-12-11 06:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-11 06:47:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-11 06:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-11 06:48:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-11 06:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-11 06:48:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-11 06:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-11 06:54:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-11 06:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-11 06:57:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-11 07:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-11 07:05:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-11 07:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-11 07:36:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-11 08:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-11 08:17:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-11 08:17:20 --> Midtrans API is returning API error. HTTP status code: 401 API response: {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]}
+in VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php on line 167.
+ 1 VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.sandbox.midtrans.com/snap/v1/transactions', 'Mid-server-1BvPZNaT-5G94_yU4GcU-RBm', [...], 'POST')
+ 2 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.sandbox.midtrans.com/snap/v1/transactions', 'Mid-server-1BvPZNaT-5G94_yU4GcU-RBm', [...])
+ 3 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction([...])
+ 4 APPPATH\Controllers\Landing.php(29): Midtrans\Snap::getSnapToken([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Landing->landing()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-11 08:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-11 08:17:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-11 08:17:21 --> Midtrans API is returning API error. HTTP status code: 401 API response: {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]}
+in VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php on line 167.
+ 1 VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.sandbox.midtrans.com/snap/v1/transactions', 'Mid-server-1BvPZNaT-5G94_yU4GcU-RBm', [...], 'POST')
+ 2 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.sandbox.midtrans.com/snap/v1/transactions', 'Mid-server-1BvPZNaT-5G94_yU4GcU-RBm', [...])
+ 3 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction([...])
+ 4 APPPATH\Controllers\Landing.php(29): Midtrans\Snap::getSnapToken([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Landing->landing()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-11 08:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-11 08:18:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-11 08:18:20 --> Midtrans API is returning API error. HTTP status code: 401 API response: {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]}
+in VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php on line 167.
+ 1 VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.sandbox.midtrans.com/snap/v1/transactions', 'Mid-server-1BvPZNaT-5G94_yU4GcU-RBm', [...], 'POST')
+ 2 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.sandbox.midtrans.com/snap/v1/transactions', 'Mid-server-1BvPZNaT-5G94_yU4GcU-RBm', [...])
+ 3 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction([...])
+ 4 APPPATH\Controllers\Landing.php(29): Midtrans\Snap::getSnapToken([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Landing->landing()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-11 08:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-11 08:20:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-11 08:20:09 --> Midtrans API is returning API error. HTTP status code: 401 API response: {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]}
+in VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php on line 167.
+ 1 VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.sandbox.midtrans.com/snap/v1/transactions', 'Mid-server-1BvPZNaT-5G94_yU4GcU-RBm', [...], 'POST')
+ 2 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.sandbox.midtrans.com/snap/v1/transactions', 'Mid-server-1BvPZNaT-5G94_yU4GcU-RBm', [...])
+ 3 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction([...])
+ 4 APPPATH\Controllers\Landing.php(29): Midtrans\Snap::getSnapToken([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Landing->landing()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-11 08:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-11 08:20:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-11 08:20:12 --> Midtrans API is returning API error. HTTP status code: 401 API response: {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]}
+in VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php on line 167.
+ 1 VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.sandbox.midtrans.com/snap/v1/transactions', 'Mid-server-1BvPZNaT-5G94_yU4GcU-RBm', [...], 'POST')
+ 2 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.sandbox.midtrans.com/snap/v1/transactions', 'Mid-server-1BvPZNaT-5G94_yU4GcU-RBm', [...])
+ 3 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction([...])
+ 4 APPPATH\Controllers\Landing.php(29): Midtrans\Snap::getSnapToken([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Landing->landing()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-11 08:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-11 08:21:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-11 08:21:28 --> Midtrans API is returning API error. HTTP status code: 401 API response: {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]}
+in VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php on line 167.
+ 1 VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.sandbox.midtrans.com/snap/v1/transactions', 'Mid-server-1BvPZNaT-5G94_yU4GcU-RBm', [...], 'POST')
+ 2 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.sandbox.midtrans.com/snap/v1/transactions', 'Mid-server-1BvPZNaT-5G94_yU4GcU-RBm', [...])
+ 3 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction([...])
+ 4 APPPATH\Controllers\Landing.php(29): Midtrans\Snap::getSnapToken([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Landing->landing()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-11 08:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-11 08:21:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-11 08:21:29 --> Midtrans API is returning API error. HTTP status code: 401 API response: {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]}
+in VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php on line 167.
+ 1 VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.sandbox.midtrans.com/snap/v1/transactions', 'Mid-server-1BvPZNaT-5G94_yU4GcU-RBm', [...], 'POST')
+ 2 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.sandbox.midtrans.com/snap/v1/transactions', 'Mid-server-1BvPZNaT-5G94_yU4GcU-RBm', [...])
+ 3 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction([...])
+ 4 APPPATH\Controllers\Landing.php(29): Midtrans\Snap::getSnapToken([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Landing->landing()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-11 08:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-11 08:23:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-11 08:23:53 --> Midtrans API is returning API error. HTTP status code: 401 API response: {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]}
+in VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php on line 167.
+ 1 VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.sandbox.midtrans.com/snap/v1/transactions', 'Mid-server-1BvPZNaT-5G94_yU4GcU-RBm', [...], 'POST')
+ 2 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.sandbox.midtrans.com/snap/v1/transactions', 'Mid-server-1BvPZNaT-5G94_yU4GcU-RBm', [...])
+ 3 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction([...])
+ 4 APPPATH\Controllers\Landing.php(29): Midtrans\Snap::getSnapToken([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Landing->landing()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-11 08:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-11 08:23:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-12-11 08:23:54 --> Midtrans API is returning API error. HTTP status code: 401 API response: {"error_messages":["Access denied due to unauthorized transaction, please check client or server key","Visit https://snap-docs.midtrans.com/#request-headers for more details"]}
+in VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php on line 167.
+ 1 VENDORPATH\midtrans\midtrans-php\Midtrans\ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall('https://app.sandbox.midtrans.com/snap/v1/transactions', 'Mid-server-1BvPZNaT-5G94_yU4GcU-RBm', [...], 'POST')
+ 2 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(108): Midtrans\ApiRequestor::post('https://app.sandbox.midtrans.com/snap/v1/transactions', 'Mid-server-1BvPZNaT-5G94_yU4GcU-RBm', [...])
+ 3 VENDORPATH\midtrans\midtrans-php\Midtrans\Snap.php(36): Midtrans\Snap::createTransaction([...])
+ 4 APPPATH\Controllers\Landing.php(29): Midtrans\Snap::getSnapToken([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Landing->landing()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-11 08:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-11 08:24:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-11 08:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-11 08:25:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-11 08:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-11 08:26:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-11 09:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-11 09:48:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-12-11 10:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-11 10:13:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Landing::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

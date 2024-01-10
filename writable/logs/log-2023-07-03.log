@@ -1,0 +1,224 @@
+INFO - 2023-07-03 05:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 05:21:35 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\Users\\Nabil\\...', 1868, Array)
+#1 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1868): fsockopen('tls://smtp.gmai...', 465, 0, 'php_network_get...', 60)
+#2 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\Users\Nabil\Documents\project ci\ex\alumni\vendor\myth\auth\src\Authentication\Resetters\EmailResetter.php(32): CodeIgniter\Email\Email->send()
+#6 C:\Users\Nabil\Documents\project ci\ex\alumni\vendor\myth\auth\src\Controllers\AuthController.php(251): Myth\Auth\Authentication\Resetters\EmailResetter->send(Object(Myth\Auth\Entities\User))
+#7 C:\Users\Nabil\Documents\project ci\ex\alumni\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptForgot()
+#8 C:\Users\Nabil\Documents\project ci\ex\alumni\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\Users\Nabil\Documents\project ci\ex\alumni\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Nabil\Documents\project ci\ex\alumni\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Nabil\\...')
+#12 {main}
+ERROR - 2023-07-03 05:21:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-07-03 05:21:35 --> 
+INFO - 2023-07-03 05:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 05:22:03 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\Users\\Nabil\\...', 1868, Array)
+#1 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1868): fsockopen('tls://smtp.gmai...', 465, 0, 'php_network_get...', 60)
+#2 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\Users\Nabil\Documents\project ci\ex\alumni\vendor\myth\auth\src\Authentication\Resetters\EmailResetter.php(32): CodeIgniter\Email\Email->send()
+#6 C:\Users\Nabil\Documents\project ci\ex\alumni\vendor\myth\auth\src\Controllers\AuthController.php(251): Myth\Auth\Authentication\Resetters\EmailResetter->send(Object(Myth\Auth\Entities\User))
+#7 C:\Users\Nabil\Documents\project ci\ex\alumni\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptForgot()
+#8 C:\Users\Nabil\Documents\project ci\ex\alumni\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\Users\Nabil\Documents\project ci\ex\alumni\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Nabil\Documents\project ci\ex\alumni\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Nabil\\...')
+#12 {main}
+ERROR - 2023-07-03 05:22:03 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-07-03 05:22:03 --> 
+INFO - 2023-07-03 05:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 05:22:24 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\Users\\Nabil\\...', 1868, Array)
+#1 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1868): fsockopen('tls://smtp.gmai...', 465, 0, 'php_network_get...', 60)
+#2 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\Users\Nabil\Documents\project ci\ex\alumni\vendor\myth\auth\src\Authentication\Resetters\EmailResetter.php(32): CodeIgniter\Email\Email->send()
+#6 C:\Users\Nabil\Documents\project ci\ex\alumni\vendor\myth\auth\src\Controllers\AuthController.php(251): Myth\Auth\Authentication\Resetters\EmailResetter->send(Object(Myth\Auth\Entities\User))
+#7 C:\Users\Nabil\Documents\project ci\ex\alumni\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptForgot()
+#8 C:\Users\Nabil\Documents\project ci\ex\alumni\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\Users\Nabil\Documents\project ci\ex\alumni\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Nabil\Documents\project ci\ex\alumni\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Nabil\\...')
+#12 {main}
+ERROR - 2023-07-03 05:22:24 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-07-03 05:22:24 --> 
+INFO - 2023-07-03 05:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 05:22:57 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\Users\\Nabil\\...', 1868, Array)
+#1 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1868): fsockopen('tls://smtp.gmai...', 465, 0, 'php_network_get...', 60)
+#2 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\Users\Nabil\Documents\project ci\ex\alumni\vendor\myth\auth\src\Authentication\Resetters\EmailResetter.php(32): CodeIgniter\Email\Email->send()
+#6 C:\Users\Nabil\Documents\project ci\ex\alumni\vendor\myth\auth\src\Controllers\AuthController.php(251): Myth\Auth\Authentication\Resetters\EmailResetter->send(Object(Myth\Auth\Entities\User))
+#7 C:\Users\Nabil\Documents\project ci\ex\alumni\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptForgot()
+#8 C:\Users\Nabil\Documents\project ci\ex\alumni\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\Users\Nabil\Documents\project ci\ex\alumni\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Nabil\Documents\project ci\ex\alumni\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Nabil\\...')
+#12 {main}
+ERROR - 2023-07-03 05:22:57 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-07-03 05:22:57 --> 
+INFO - 2023-07-03 05:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 05:25:14 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\Users\\Nabil\\...', 1868, Array)
+#1 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1868): fsockopen('tls://smtp.gmai...', 465, 0, 'php_network_get...', 60)
+#2 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\Users\Nabil\Documents\project ci\ex\alumni\vendor\myth\auth\src\Authentication\Resetters\EmailResetter.php(32): CodeIgniter\Email\Email->send()
+#6 C:\Users\Nabil\Documents\project ci\ex\alumni\vendor\myth\auth\src\Controllers\AuthController.php(251): Myth\Auth\Authentication\Resetters\EmailResetter->send(Object(Myth\Auth\Entities\User))
+#7 C:\Users\Nabil\Documents\project ci\ex\alumni\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptForgot()
+#8 C:\Users\Nabil\Documents\project ci\ex\alumni\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\Users\Nabil\Documents\project ci\ex\alumni\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Nabil\Documents\project ci\ex\alumni\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Nabil\\...')
+#12 {main}
+ERROR - 2023-07-03 05:25:14 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-07-03 05:25:14 --> 
+INFO - 2023-07-03 05:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 05:28:21 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\Users\\Nabil\\...', 1868, Array)
+#1 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1868): fsockopen('tls://smtp.gmai...', 465, 0, 'php_network_get...', 60)
+#2 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\Users\Nabil\Documents\project ci\ex\alumni\vendor\myth\auth\src\Authentication\Resetters\EmailResetter.php(32): CodeIgniter\Email\Email->send()
+#6 C:\Users\Nabil\Documents\project ci\ex\alumni\vendor\myth\auth\src\Controllers\AuthController.php(251): Myth\Auth\Authentication\Resetters\EmailResetter->send(Object(Myth\Auth\Entities\User))
+#7 C:\Users\Nabil\Documents\project ci\ex\alumni\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptForgot()
+#8 C:\Users\Nabil\Documents\project ci\ex\alumni\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\Users\Nabil\Documents\project ci\ex\alumni\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Nabil\Documents\project ci\ex\alumni\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Nabil\Documents\project ci\ex\alumni\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Nabil\\...')
+#12 {main}
+ERROR - 2023-07-03 05:28:21 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-07-03 05:28:21 --> 
+INFO - 2023-07-03 05:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 05:30:26 --> [ERROR] 6 : Could not resolve host: api.pwnedpasswords.com VENDORPATH\myth\auth\src\Exceptions\AuthException.php:56
+CRITICAL - 2023-07-03 05:30:26 --> 6 : Could not resolve host: api.pwnedpasswords.com
+in VENDORPATH\myth\auth\src\Exceptions\AuthException.php on line 56.
+ 1 VENDORPATH\myth\auth\src\Authentication\Passwords\PwnedValidator.php(46): Myth\Auth\Exceptions\AuthException::forHIBPCurlFail(Object(CodeIgniter\HTTP\Exceptions\HTTPException))
+ 2 VENDORPATH\myth\auth\src\Authentication\Passwords\PasswordValidator.php(46): Myth\Auth\Authentication\Passwords\PwnedValidator->check('inipassnya', Object(Myth\Auth\Entities\User))
+ 3 VENDORPATH\myth\auth\src\Authentication\Passwords\ValidationRules.php(42): Myth\Auth\Authentication\Passwords\PasswordValidator->check('inipassnya', Object(Myth\Auth\Entities\User))
+ 4 SYSTEMPATH\Validation\Validation.php(311): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('inipassnya', null)
+ 5 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('password', 'password', 'inipassnya', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(166): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-07-03 05:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 05:31:14 --> [ERROR] 6 : Could not resolve host: api.pwnedpasswords.com VENDORPATH\myth\auth\src\Exceptions\AuthException.php:56
+CRITICAL - 2023-07-03 05:31:14 --> 6 : Could not resolve host: api.pwnedpasswords.com
+in VENDORPATH\myth\auth\src\Exceptions\AuthException.php on line 56.
+ 1 VENDORPATH\myth\auth\src\Authentication\Passwords\PwnedValidator.php(46): Myth\Auth\Exceptions\AuthException::forHIBPCurlFail(Object(CodeIgniter\HTTP\Exceptions\HTTPException))
+ 2 VENDORPATH\myth\auth\src\Authentication\Passwords\PasswordValidator.php(46): Myth\Auth\Authentication\Passwords\PwnedValidator->check('inipassnya', Object(Myth\Auth\Entities\User))
+ 3 VENDORPATH\myth\auth\src\Authentication\Passwords\ValidationRules.php(42): Myth\Auth\Authentication\Passwords\PasswordValidator->check('inipassnya', Object(Myth\Auth\Entities\User))
+ 4 SYSTEMPATH\Validation\Validation.php(311): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('inipassnya', null)
+ 5 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('password', 'password', 'inipassnya', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(166): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-07-03 05:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 05:33:10 --> [ERROR] 6 : Could not resolve host: api.pwnedpasswords.com VENDORPATH\myth\auth\src\Exceptions\AuthException.php:56
+CRITICAL - 2023-07-03 05:33:10 --> 6 : Could not resolve host: api.pwnedpasswords.com
+in VENDORPATH\myth\auth\src\Exceptions\AuthException.php on line 56.
+ 1 VENDORPATH\myth\auth\src\Authentication\Passwords\PwnedValidator.php(46): Myth\Auth\Exceptions\AuthException::forHIBPCurlFail(Object(CodeIgniter\HTTP\Exceptions\HTTPException))
+ 2 VENDORPATH\myth\auth\src\Authentication\Passwords\PasswordValidator.php(46): Myth\Auth\Authentication\Passwords\PwnedValidator->check('passemail', Object(Myth\Auth\Entities\User))
+ 3 VENDORPATH\myth\auth\src\Authentication\Passwords\ValidationRules.php(42): Myth\Auth\Authentication\Passwords\PasswordValidator->check('passemail', Object(Myth\Auth\Entities\User))
+ 4 SYSTEMPATH\Validation\Validation.php(311): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('passemail', null)
+ 5 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('password', 'password', 'passemail', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(166): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-07-03 05:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 05:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
