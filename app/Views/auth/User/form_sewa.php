@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,63 +14,54 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="/css/sewa.css">
+    <link rel="shortcut icon" type="image/png" href="/Asset/liveit/landing/logo.png">
     <title>LIVEit</title>
     
 </head>
 
 <body>
 
-<div class="row">
-<div class="inf-paket col-md-6">
+<body>
 
-    
 
-    
-</div>
+
+
+<div class="form-cont  form-ukuran shadow">
+
+    <div class="form-container">
         
-
-        
-
-<div class="form-container col-md-6 form-ukuran shadow">
-                    <form class="form" action="<?= base_url('user/simpanTransaksi') ?>" method="post">
-                        <div class="form-group">
-                            <label for="select">Pilih Paket Anda</label>
-                            <select name="id_layanan" class="form-select">
-                                <?php foreach ($layanans as $layanan) : ?>
-                                    <option value="<?= $layanan['id_layanan']; ?>"><?= $layanan['nama_layanan']; ?></option>
-                                <?php endforeach; ?>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="select">Pilih Ruangan Yang Akan Tersedia Berikut :</label>
-                            <select name="id_ruangan" class="form-select" id="ruanganSelect" aria-label="Ruangan select example">
-                                <!-- Opsi ruangan akan dimuat di sini menggunakan JavaScript -->
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="input">Atur Jadwal Reservasi Anda</label>
-                            <input type="datetime-local" name="checkin" class="res">
-                        </div>
-                        <div class="form-group">
-                            <label for="input">Lama Sewa</label>
-                            <input type="datetime-local" name="checkout"  class="res">
-                        </div>
-                        <div class="form-group">
-                            <label for="textarea">Keterangan</label>
-                            <textarea required="" cols="50" rows="10" id="textarea" name="textarea" readonly class="ket"></textarea>
-                        </div>
-                        <button type="submit" class="form-submit-btn btn-primary"><i class="fa-solid fa-cart-shopping"></i>Pesan</button>
-                    </form>
+        <form class="form" action="<?= base_url('user/simpanTransaksi') ?>" method="post">
+            <div class="form-group">
+                <label for="select">Pilih Paket Yang Akan Diambil :</label>
+                <select name="id_layanan" class="form-select">
+                    <?php foreach ($layanans as $layanan) : ?>
+                        <option value="<?= $layanan['id_layanan']; ?>"><?= $layanan['nama_layanan']; ?></option>
+                    <?php endforeach; ?>
+                </select>
             </div>
-
+            <div class="form-group">
+                <label for="select">Pilih Ruangan Yang Akan Tersedia Berikut :</label>
+                <select name="id_ruangan" class="form-select" id="ruanganSelect" aria-label="Ruangan select example">
+                    <!-- Opsi ruangan akan dimuat di sini menggunakan JavaScript -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="input">Tentukan Tanggal dan Jam Akan Melakukan Reservasi</label>
+                <input type="datetime-local" name="checkin" class="res">
+            </div>
+            <div class="form-group">
+                <label for="input">Lama Sewa</label>
+                <input type="datetime-local" name="checkout" class="res">
+            </div>
+            <div class="form-group">
+                <label for="textarea"><b>BIAYA</b></label>
+                <textarea required="" cols="50" rows="10" id="textarea" name="textarea" readonly class="ket"></textarea>
+            </div>
+            <button type="submit" class="form-submit-btn">Pesan</button>
+        </form>
+    </div>
 
 </div>
-          
-
-    
-
-
-
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const layananSelect = document.querySelector('select[name="id_layanan"]');
@@ -113,22 +107,14 @@
                 if (checkinInput.value && this.value && nominalPerJam) {
                     let totalJamSewa = hitungDurasiSewa(checkinInput.value, this.value);
                     let totalBiaya = parseFloat((totalJamSewa * nominalPerJam).toFixed(2)); // Ini akan menghasilkan Number
-                    console.log(`Total biaya ${totalBiaya}`); // Debugging calculation
-                    biayaTextarea.value = `Total Jam Sewa ${totalJamSewa.toFixed(2)} JAM\n` +
-                        `Harga/jam ${nominalPerJam}\n` +
-                        `Harga Rp.${totalBiaya}\n`+
-                        `Klik Sewa Untuk Lanjut Ke pembayaran`;
+                    console.log(`Total biaya: ${totalBiaya}`); // Debugging calculation
+                    biayaTextarea.value = `TOTAL JAM SEWA = ${totalJamSewa.toFixed(2)} JAM\n` +
+                        `PERHITUNGAN: ${totalJamSewa.toFixed(2)} JAM X ${nominalPerJam}\n` +
+                        `TOTAL = Rp.${totalBiaya}`;
                 }
             });
         });
-
-
-   
-</script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/ceefbd64d0.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

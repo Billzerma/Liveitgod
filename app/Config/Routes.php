@@ -43,6 +43,7 @@ $routes->get('/', 'User::index', ['filter' => 'role:admin']);
 $routes->get('/adm', 'Admin::index', ['filter' => 'role:admin']);
 $routes->get('/adm/ruangan', 'Admin::daftar_ruangan', ['filter' => 'role:admin']);
 $routes->get('/adm/(:num)', 'Admin::detail_user/$1', ['filter' => 'role:admin']);
+$routes->get('/adm/daftar_transaksi', 'Admin::daftar_transaksi', ['filter' => 'role:admin']);
 $routes->get('/login', 'Home::login');
 $routes->get('/register', 'Home::register');
 $routes->get('/user', 'User::index', ['filter' => 'role:user']);
@@ -61,6 +62,8 @@ $routes->get('/user/detailTransaksi/(:num)', 'User::detailTransaksi/$1', ['filte
 $routes->get('/user/detailTransaksi/(:num)', 'User::detailTransaksi/$1', ['filter' => 'role:admin']);
 $routes->get('/pembayaran/berhasil/(:segment)', 'User::pembayaranBerhasil/$1');
 $routes->post('/pembayaran/midtrans-notification', 'User::verifikasiPembayaran');
+$routes->get('/user/transaksi/batalkan/(:num)', 'User::batalkanSewa/$1', ['filter' => 'role:user']);
+$routes->get('/user/transaksi/batalkan/(:num)', 'User::batalkanSewa/$1', ['filter' => 'role:admin']);
 
 
 

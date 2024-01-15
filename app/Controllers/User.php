@@ -315,4 +315,17 @@ class User extends BaseController
         // Redirect ke halaman konfirmasi dengan pesan sukses
         return redirect()->to('/user/rencana')->with('message', 'Pembayaran Berhasil');
     }
+
+    public function batalkanSewa($idTransaksi)
+    {
+        if (!$this->transaksiModel->updateStatusTransaksi(
+            $idTransaksi,
+            'Dibatalkan'
+        )) {
+            return redirect()->back()->with('error', 'Gagal membatalkan sewa.');
+        }
+        // Tambahkan logika jika perlu, misal kembali mengubah status ruangan menjadi tersedia
+
+        return redirect()->to('/user/rencana')->with('message', 'Sewa telah berhasil dibatalkan.');
+    }
 }

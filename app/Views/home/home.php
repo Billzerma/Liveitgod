@@ -21,6 +21,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
     <title>LIVEit</title>
+    <link rel="shortcut icon" type="image/png" href="Asset/liveit/landing/logo.png">
 </head>
 
 <body>

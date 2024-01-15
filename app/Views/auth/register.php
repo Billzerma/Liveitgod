@@ -41,9 +41,7 @@
                             </button>
                             <hr>
                         </form>
-                        <div class="text-center">
-                            <a class="small" href="forgot-password.html">Lupa Kata Sandi?</a>
-                        </div>
+                       
                         <div class="text-center">
                             <a class="small" href="/login">Sudah Punya AKun? Masuk!</a>
                         </div>

@@ -34,7 +34,7 @@ class TransaksiModel extends Model
 
     public function getDetailTransaksiById($idTransaksi)
     {
-        return $this->select('layanan.nama_layanan, layanan.kelas_paket, ruangan.nomor_ruangan, paket.deskripsi, transaksi.tanggal_booking, transaksi.tanggal_checkout, transaksi.total, transaksi.status, users.username')
+        return $this->select('transaksi.id_transaksi, layanan.nama_layanan, layanan.kelas_paket, ruangan.nomor_ruangan, paket.deskripsi, transaksi.tanggal_booking, transaksi.tanggal_checkout, transaksi.total, transaksi.status, users.username')
             ->join('paket', 'transaksi.id_paket = paket.id_paket')
             ->join('layanan', 'paket.id_layanan = layanan.id_layanan')
             ->join('ruangan', 'paket.id_ruangan = ruangan.id_ruangan')
@@ -48,4 +48,6 @@ class TransaksiModel extends Model
         $data = ['status' => $newStatus];
         return $this->update($idTransaksi, $data);
     }
+
+    
 }

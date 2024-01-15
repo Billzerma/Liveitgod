@@ -16,7 +16,7 @@ class Auth extends BaseConfig
      *
      * @var string
      */
-    public $defaultUserGroup;
+    public $defaultUserGroup = 'user';
 
     /**
      * --------------------------------------------------------------------
@@ -73,17 +73,9 @@ class Auth extends BaseConfig
      *
      * @var array
      */
-    // public $views = [
-    //     'login'           => 'Myth\Auth\Views\login',
-    //     'register'        => 'Myth\Auth\Views\register',
-    //     'forgot'          => 'Myth\Auth\Views\forgot',
-    //     'reset'           => 'Myth\Auth\Views\reset',
-    //     'emailForgot'     => 'Myth\Auth\Views\emails\forgot',
-    //     'emailActivation' => 'Myth\Auth\Views\emails\activation',
-    // ];
     public $views = [
-        'login'           => '\App\Views\auth\login',
-        'register'        => '\App\Views\auth\register',                                                
+        'login'           => 'Myth\Auth\Views\login',
+        'register'        => 'Myth\Auth\Views\register',
         'forgot'          => 'Myth\Auth\Views\forgot',
         'reset'           => 'Myth\Auth\Views\reset',
         'emailForgot'     => 'Myth\Auth\Views\emails\forgot',
@@ -109,8 +101,8 @@ class Auth extends BaseConfig
      * @var string[]
      */
     public $validFields = [
-        'email','username',
-        
+        'email',
+        'username',
     ];
 
     /**
@@ -194,8 +186,8 @@ class Auth extends BaseConfig
      *
      * @var string|null Name of the ActivatorInterface class
      */
-    //public $requireActivation = 'Myth\Auth\Authentication\Activators\EmailActivator';
-    public $requireActivation = null;
+    public $requireActivation = 'Myth\Auth\Authentication\Activators\EmailActivator';
+    // public $requireActivation = null;
 
     /**
      * --------------------------------------------------------------------
@@ -207,7 +199,7 @@ class Auth extends BaseConfig
      *
      * @var string|null Name of the ResetterInterface class
      */
-    //public $activeResetter = 'Myth\Auth\Authentication\Resetters\EmailResetter';
+    // public $activeResetter = 'Myth\Auth\Authentication\Resetters\EmailResetter';
     public $activeResetter = null;
 
     /**
@@ -343,7 +335,7 @@ class Auth extends BaseConfig
         'Myth\Auth\Authentication\Passwords\CompositionValidator',
         'Myth\Auth\Authentication\Passwords\NothingPersonalValidator',
         'Myth\Auth\Authentication\Passwords\DictionaryValidator',
-        'Myth\Auth\Authentication\Passwords\PwnedValidator',
+        // 'Myth\Auth\Authentication\Passwords\PwnedValidator',
     ];
 
     /**

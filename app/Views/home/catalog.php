@@ -7,9 +7,7 @@
 </div>
 
 <div class="head-commerce shadow">
-  <div class="bor">
-    <h1>Live Toko Online</h1>
-  </div>
+ 
 </div>
 
 <div class="cont">

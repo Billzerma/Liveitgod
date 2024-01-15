@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="<?= base_url('css\landing.css');?>">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="shortcut icon" type="image/png" href="Asset/liveit/landing/logo.png">
     <title>LIVEit</title>
   </head>
   <body>

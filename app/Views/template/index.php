@@ -9,14 +9,19 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>LIVEIT - DASHBOARD</title>
+    <title>LIVEit</title>
+    <link rel="shortcut icon" type="image/png" href="/Asset/liveit/landing/logo.png">
 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- Custom fonts for this template-->
-    <link href="<?= base_url(); ?>/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="<?= base_url('/csstambahan/vendor/fontawesome-free/css/all.min.css'); ?>" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
+    <link rel="stylesheet" type="text/css" href="<?= base_url('css\extra.css');?>">
     <!-- Custom styles for this template-->
-    <link href="<?= base_url(); ?>/csstambahan/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="<?= base_url('/csstambahan/css/sb-admin-2.min.css'); ?>" rel="stylesheet">
+   
 
 </head>
 
@@ -87,14 +92,16 @@
     </div>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="<?= base_url(); ?>/vendor/jquery/jquery.min.js"></script>
-    <script src="<?= base_url(); ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url('/csstambahan/vendor/jquery/jquery.min.js'); ?>"></script>
+    <script src="<?= base_url('/csstambahan/vendor/bootstrap/js/bootstrap.bundle.min.js'); ?>"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="<?= base_url(); ?>/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="<?= base_url('/csstambahan/vendor/jquery-easing/jquery.easing.min.js'); ?>"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="<?= base_url(); ?>/js/sb-admin-2.min.js"></script>
+    <script src="<?= base_url('/csstambahan/js/sb-admin-2.min.js'); ?>"></script>
+    <script src="https://kit.fontawesome.com/ceefbd64d0.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
 
 </body>
 

@@ -20,12 +20,24 @@
                 <p class="card-text">Total Harga: Rp<?= esc(number_format($transaksi['total'], 0, ',', '.')); ?></p>
                 <p class="card-text">Status: <?= esc($transaksi['status'] ?? 'Nama layanan tidak tersedia'); ?></p>
                 <p class="card-text">Deskripsi Layanan: <?= esc($transaksi['deskripsi'] ?? 'Nama layanan tidak tersedia'); ?></p>
-                <a type="button" href="https://app.midtrans.com/snap/v2/vtweb/<?= esc($token); ?>" class="btn btn-primary" style="margin-right: 50px; width: 100px;">Bayar</a>
-                <a type="button" href="" class="btn btn-primary" style="margin-right: 50px; width: 100px;">Bayar</a>
-                <a type="button" href="" class="btn btn-primary" style="margin-right: 50px; width: 100px;">Bayar</a>
+                <?php
+                // Tentukan apakah tombol harus ditampilkan atau tidak.
+                $showPaymentButton = true;
+
+                // Periksa apakah status transaksi adalah 'Pembayaran Berhasil' atau 'Dibatalkan'.
+                if ($transaksi['status'] == 'Pembayaran Berhasil' || $transaksi['status'] == 'Dibatalkan') {
+                    $showPaymentButton = false;
+                }
+                ?>
+                <!-- Bagian HTML untuk menampilkan tombol -->
+                <?php if ($transaksi['status'] !== 'Pembayaran Berhasil' && $transaksi['status'] !== 'Dibatalkan') : ?>
+                    <a type="button" href="https://app.midtrans.com/snap/v2/vtweb/<?= esc($token); ?>" class="btn btn-primary" style="margin-right: 50px; width: 100px;">Bayar</a>
+                    <a href="<?= site_url('/user/transaksi/batalkan/' . $transaksi['id_transaksi']); ?>" class="btn btn-danger" style="margin-right: 10px; width: 180px;">Batalkan Sewa</a>
+                <?php endif; ?>
             </div>
         </div>
     </div>
+</div>
 </div>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -42,7 +54,7 @@
             if (timeLeft > 0) {
                 const hours = Math.floor(timeLeft / 3600);
                 const minutes = Math.floor((timeLeft % 3600) / 60);
-                countdownElement.textContent = `${hours} jam ${minutes} menit`;
+                countdownElement.textContent = ${hours} jam ${minutes} menit;
             } else {
                 countdownElement.textContent = 'Waktu sewa telah berakhir';
             }
