@@ -24,14 +24,15 @@
 
 .mar-img{
     text-align: center;
-  vertical-align: middle;
-  width: 500px;
+
+  width: 400px;
+  margin-bottom: 20px;
   
 }
 
 
 .desk-gedung{
-    width: 500px;
+    width: 300px;
 }
 
 
@@ -42,17 +43,17 @@
 }
 
 .banner-catalog{
-    width: 1700px;
+    width: 1690px;
     height: 500px;
     object-fit: cover;
 
 }
 
 .head-commerce{
-    width: 1700px;
+    width: 1690px;
     height: 100px;
     background-color: #232173;
-    padding: 20px;
+    padding: 10px;
 }
 
 .bor h1    {
@@ -73,7 +74,101 @@
 }
 
 .scroll{
-    overflow-x: scroll;
-    height: 200px;
-    overflow-x: hidden;
+   background-color: #ebebeb;
+   margin-top: 20px;
+}
+
+.table-posting{
+    background-color: white;
+}
+
+.img-gedung{
+    width: 400px;
+    height: 300px;
+    
+}
+
+.baris{
+    margin-bottom: 20px;
+}
+
+.card-text{
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.cat{
+    width: 1400px;
+    margin-left: 150px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+    
+   
+}
+
+.foto{
+    margin-top: 20px;
+    background-color: #ffffff;
+    height: 300px;
+    
+}
+
+.desk{
+    background-color: #ffffff;
+    height: 300px;
+}
+
+.desk-pass{
+    height: 100px;
+    width: 800px;
+}
+
+.nomor-ruangan{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.tipe{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.deskripsi{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    
+}
+
+.rating-star{
+    color: #d2ce03;
+    margin-top: -20px;
+}
+
+.cont{
+    background-color: #ebebeb;
+    margin-top: -20px;
+    padding: 10px;
+}
+
+.pesan{
+    display: block;
+    text-decoration: none;
+    width: 170px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
 }

@@ -41,7 +41,7 @@
         </li>
 
         <li class="nav-item">
-          <a class=" text-nav my-plan log-out" href="#">Log Out</a>
+          <a class=" text-nav my-plan log-out" href="<?= base_url('logout'); ?>">Log Out</a>
         </li>
       </ul>
     </div>

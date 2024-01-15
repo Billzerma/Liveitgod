@@ -1,0 +1,50 @@
+body{
+    background-color: #fafafa;
+}
+
+.form-ukuran{
+    background-color: white;
+    width: 700px;
+    margin: 30px;
+    margin-left: 100px;
+}
+
+
+.form-group{
+    padding: 20px;
+}
+.form-group label{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+
+.form-select{
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.res{
+    width: 400px;
+    height: 40px;
+    display: block;
+}
+.ket{
+    height: 150px;
+    display: block;
+    border: none;
+}
+
+.form-submit-btn{
+    width: 150px;
+    height: 40px;
+    margin: 20px;
+    background-color: rgb(4, 128, 4);
+    border: 4px solid rgb(4, 128, 4);
+    border-radius: 20px;
+}
+
+

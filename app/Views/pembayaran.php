@@ -65,7 +65,7 @@
                                 <td><?= $data->ponsel; ?></td>
                                 <td><?= $data->nominal; ?></td>
                                 <td>
-                                <a  href="https://app.midtrans.com/snap/v2/vtweb/<?=$data->token;?>" target="_blank">Pilih Paket</a>
+                                <a  href="https://app.midtrans.com/snap/v2/vtweb/<?=$data->token;?>">Pilih Paket</a>
                                 
                    
                                 </td>

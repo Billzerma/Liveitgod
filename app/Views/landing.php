@@ -33,7 +33,7 @@
                     <h2>Mulai Dari</h2>
                     <h1 class="harga">Rp<span>40.000/hari</span></h1>
 
-                    <a href="<?= base_url('/pembayaran'); ?>" class="callbutton">Coba Sekarang</a>
+                    <a href="<?= base_url('/catalog'); ?>" class="callbutton">Coba Sekarang</a>
                 </div>
             
             </div>
@@ -81,10 +81,7 @@
                         <li><i class="fa-solid fa-circle-check"></i> max radius Penggunaan 15 meter</li>
                    </ul>
 
-                </div>
-
-                
-                
+                </div> 
                 
             </div>
             
@@ -118,7 +115,7 @@
                         
                    </ul>
                 </div>
-            </div>
+</div>
 
             
             

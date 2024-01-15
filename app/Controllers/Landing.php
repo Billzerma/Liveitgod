@@ -9,8 +9,6 @@ class Landing extends BaseController
     public function landing()
     {
 
-    
-
     return view('landing');
         
     }
